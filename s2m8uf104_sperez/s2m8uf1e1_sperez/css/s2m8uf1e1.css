@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  font-family: helvetica, sans-serif;
+}
+
+#barra{
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  color: #FFF;
+}
+
+#menu_izq{
+  height: 50px;
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url(../imatges/logo.png);
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  margin-left: 10px;
+
+
+}
+
+
+#menu_izq li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 5px;
+  line-height: 70px;
+
+}
+
+#menu_der{
+  height: 50px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+#menu_der{
+  height: 50px;
+  float: right;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#menu_der li{
+
+  list-style-type: none;
+  display: inline;
+}
+
+#Documentals{
+  color: white;
+
+
+}
+
+#Documentals li{
+  height: auto;
+  width: auto;
+  list-style-type: none;
+  display: inline;
+  background-color: red;
+}
+
+#img1{
+  background-image: url(../imatges/1982Koyaanisqatsi.jpg);
+  background-repeat: no-repeat;
+
+}
+#img2{
+  background-image: url(../imatges/2004YTuQueSabes.jpg);
+  background-repeat: no-repeat;
+
+}
+
+#img3{
+  background-image: url(../imatges/2005Earthlings.jpg);
+  background-repeat: no-repeat;
+
+}
+
+#img4{
+  background-image: url(../imatges/2007Helvetica.jpg);
+  background-repeat: no-repeat;
+}
