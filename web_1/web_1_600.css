@@ -1,0 +1,153 @@
+@media only screen and (max-width: 600px) {
+  html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #EDE3E1;
+  height: 2000px;
+  font-family: helvetica;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: yellow;
+}
+
+
+.cabeza{
+  width: 600px;
+  height: 50px;
+  background-color: #FF5733;
+  position: fixed;
+  z-index: 10000;
+}
+#titulo{
+  margin-left: 10px;
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+
+/*pk tiene un espacio arriba la letra */
+}
+#cafe{
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 40px;
+  float: left;
+
+  background-color: ;
+}
+#lupa{
+  padding: 0;
+  margin-top: 15px;
+  margin-right: 20px;
+  height: 20px;
+  float: right;
+
+  background-color: ;
+}
+/*-------------------------------------------------------------*/
+}
+.barra{
+  width: 150px;
+  height: 500px;
+  background-color: #C70039;
+  top: 50px;
+  position: absolute;
+}
+
+#lista{
+
+}
+/*-------------------------------------------------------------*/
+.cuerpo{
+  width: 420px;
+  height: auto;
+  background-color: #FFD1C8;
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+.cajas{
+  width: 400px;
+  height: auto;
+  background-color: #EBC2BA;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+}
+
+#productos{
+  margin-top: 40px;
+}
+
+
+.foto{
+  height: 100px;
+  width: 120px;
+  padding: 5px;
+
+}
+
+#historia{
+
+}
+p{
+  padding: 10px;
+}
+
+#formulario{
+  background-color: ;
+  margin: 10px;
+  text-align: center;
+
+}
+
+#enviar{
+  width: 50px;
+  height: 30px;
+  background-color: ;
+  margin-left: 160px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*-------------------------------------------------------------*/
+ /*preguntar a nacho pk no se ve el pie */
+.footer{
+  width: 600px;
+  height: 20px;
+  background-color: blue;
+  position: relative;
+  bottom: 0px;
+}
+
+/*-------------------------------------------------------------*/
+/*el enlace no funciona */
+.boton{
+  width: 50px;
+  height: 20px;
+  background-color:  #C70039;
+  position:  fixed;
+  bottom: 15px;
+  left: 15px;
+  border-radius: 10px;
+
+}
+#boton{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+}
