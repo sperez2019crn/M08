@@ -1,0 +1,191 @@
+@media only screen and (min-width: 601px) {
+
+  html{
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7E9;
+    height: 2000px;
+    font-family: helvetica;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: black;
+  }
+  a:visited{
+    color: black;
+  }
+  a:hover{
+    color: #fff;
+  }
+
+
+  .cabeza{
+    width: 100%;
+    height: 50px;
+    background-color: #85C1E9;
+    position: fixed;
+    z-index: 10000;
+    box-shadow: 2px 2px 10px #666;
+  }
+
+  #titulo{
+    margin-left: 10px;
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #cafe{
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 40px;
+    float: left;
+    background-color: ;
+  }
+
+  #lupa{
+    padding: 0;
+    margin-top: 15px;
+    margin-right: 20px;
+    height: 20px;
+    float: right;
+    background-color: ;
+  }
+  /*-------------------------------------------------------------*/
+  .barra{
+    width: 15%;
+    height: 600px;
+    background-color: #2E86C1;
+    margin-top: 50px;
+    float: left;
+  }
+
+  #lista{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style-type: none;
+  }
+
+  #lista li{
+    margin-bottom: 10px;
+  }
+
+  /*-------------------------------------------------------------*/
+  .cuerpo{
+    width: 80%;
+    height: auto;
+    background-color: #42A5F5;
+    float: right;
+    margin-top: 60px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 200px;
+  }
+  .cajas{
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #EBF5FB;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px #666;
+  }
+
+  #formulario p{
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 0;
+  }
+
+  .cajas input{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  #productos{
+    margin-top: 40px;
+  }
+
+  .foto{
+    width: 31%;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    margin-right: 0;
+    margin-top: 5px;
+    }
+
+  #fotos img:hover {filter: opacity(.5);}
+
+  #historia{
+
+  }
+
+  p{
+    padding: 10px;
+  }
+/*-------------------------------------------------------------*/
+  #formulario h4{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  #enviar{
+    width: 50px;
+    height: 30px;
+    background-color: ;
+    margin-left: 160px;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  /*-------------------------------------------------------------*/
+   /*preguntar a nacho pk no se ve el pie */
+  .footer{
+    width: 100%;
+    height: 30px;
+    background-color: #5DADE2;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 10px;
+  }
+
+  .footer p{
+    display: inline;
+    padding-top: 0;
+    padding-left: 180px;
+  }
+
+
+  /*-------------------------------------------------------------*/
+
+  .boton{
+    width: 50px;
+    height: 20px;
+    background-color:  #1B4F72;
+    position:  fixed;
+    bottom: 70px;
+    right: 15px;
+    border-radius: 8px;
+  }
+
+  #boton{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  }
